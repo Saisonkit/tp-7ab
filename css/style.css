@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.login{background:#F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+    color: black;}
+.login_wrapper{
+    right:0px;
+    margin:0px auto;
+    margin-top:5%;
+    max-width:350px;
+    position:relative}
+
+.login_content{margin:0 auto;
+    padding:25px 0 0;
+    position:relative;
+    text-align:center;
+    text-shadow:0 1px 0 #fff;
+    min-width:280px}
+
+.login_content a,.login_content .btn-default:hover{text-decoration:none}
+.login_content a:hover{text-decoration:underline}
+
+.login_content h1{font:normal 25px Helvetica, 
+    Arial, sans-serif;letter-spacing:-0.05em;line-height:20px;margin:10px 0 30px}
+
+.login_content form{margin:20px 0;position:relative}
+
+/*  */
+
+.login_content form input[type="text"],
+.login_content form input[type="email"],
+.login_content form input[type="password"]
+    {border-radius:3px;
+    color:#000;
+    margin:0 0 20px;
+    width:100%;
+    background-color: #EEEEEE;}
+
+.login_content form input[type="text"]:focus,
+.login_content form input[type="email"]:focus,
+.login_content form input[type="password"]:focus{-webkit-box-shadow:0 0 2px #25008a inset;box-shadow:0 0 2px #1c1fd1 inset;background-color:#fff;border:1px solid #050f9b;outline:none}
+#username{background-position:10px 10px !important}
+#password{background-position:10px -53px !important}
+.login_content form div a{
+    font-size:12px;
+    margin:10px 15px 0 0} 
+.btn{
+    width: 100%;
+}
+ 
+.message_error {
+    color: red;
+    font-size: 14px;
+}
+
+/* page profile */
+
+ .contenter{
+    margin-top:5%;
+ }
+
+ .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile img {
+    border:1px solid #E6E9ED;
+    border-radius: 50%;
+    padding: 2px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.profile p {
+    margin: 0%;
+    /* margin-bottom: 5px; */
+}
+.profile .btn {
+    width: 250px;
+    margin-top: 20px;s
+}
+
+@media (max-width: 530px){
+    .login_wrapper{
+        max-width:290px;
+        position:relative}
+    
+    .contenter{
+        right:0px;
+        margin:0px auto;
+        margin-top:5%;
+        max-width:300px;
+        position:relative}
+    .profile h5 {
+            font-size: medium;
+        }
+}
